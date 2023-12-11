@@ -6,6 +6,7 @@ import './App.css'
 import Home from "./components/home/Home"
 import Sidebar from "./components/sidebar/Sidebar"
 import About from './components/about/About';
+import Services from './components/services/Services';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <main className="main">
         <Home />
         <About/>
+        <Services/>
       </main>
     </>
   )

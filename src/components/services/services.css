@@ -1,0 +1,27 @@
+.services--container{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.875rem;
+}
+
+.services--card{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1.875rem;
+  box-shadow: var(--shadow);
+  transition: transform .3s ease-in-out;
+}
+
+.services--card:hover{
+  transform: translateY(-10px);
+}
+.services--image{
+  margin-bottom: 1.25rem;
+}
+.services--title{
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+}
+.services--description{
+  color: slategray;
+}
