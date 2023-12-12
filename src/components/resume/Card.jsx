@@ -1,5 +1,6 @@
 import React from 'react'
-import { CgRadioCheck } from 'react-icons/cg'
+import { IoRibbonOutline } from 'react-icons/io5'
+
 
 
 export default function Card({ exp }) {
@@ -9,7 +10,7 @@ export default function Card({ exp }) {
     <>
       {exp && (
         <div className='timeline--item'>
-          <CgRadioCheck className='timeline--icon'/><span className='timeline--year'>{exp.year}</span>
+          <IoRibbonOutline className='timeline--icon'/><span className='timeline--year'>{exp.year}</span>
           <h3 className='timeline--title'>{exp.title}</h3>
           <p className='timeline--text'>{exp.desc}</p>
         </div>

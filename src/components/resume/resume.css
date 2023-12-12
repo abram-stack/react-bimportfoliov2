@@ -23,7 +23,7 @@
   content: '';
   width: 1px;
   height: 100%;
-  background-color: var(--primary-color);
+  background-color:hsl(43, 100%,68%);
   position: absolute;
   left: .6rem;
   top: 0;
@@ -34,9 +34,8 @@
   left: -.1rem;
   top: 0;
   font-size: var(--h2-font-size);
-  color: var(--primary-color);
+  color: hsl(43, 100%, 68%);
   background-color: whitesmoke;
-  /* border: 1px solid red; */
   padding:.2rem 0;
 }
 
