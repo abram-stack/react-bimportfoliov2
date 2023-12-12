@@ -1,0 +1,44 @@
+.testimonials--container{
+  max-width: 700px;
+  border:1px solid red;
+}
+.testimonial--item{
+  text-align: center;
+  padding: 0 1.2rem;
+}
+
+/* using div to cover an image, makes it display block, and place it flex start */
+.thumb{
+  border: 1px solid blue;
+  height: 5.6rem;
+  width: 5.6rem;
+  margin: 0 auto;
+}
+.testimonial--title{
+  margin-top: .75rem;
+}
+.subtitle{
+  color: slategray;
+  font-size: var(--small-font-size);
+}
+.comment{
+  background-color: whitesmoke;
+  padding: 1.875rem;
+  margin-top: 1.5rem ;
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+.swiper-pagination-bullet{
+  width: .5rem !important;
+  height: .375rem !important;
+}
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  margin: 0 .2rem !important;
+}
+.swiper-pagination-bullet-active{
+  width: 1.2rem !important;
+  height: .375rem !important;
+  border-radius: .5rem !important;
+}

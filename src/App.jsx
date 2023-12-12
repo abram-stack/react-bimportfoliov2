@@ -9,6 +9,7 @@ import About from './components/about/About';
 import Services from './components/services/Services';
 import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
+import Testimonials from './components/testimonials/Testimonials';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Services />
         <Resume/>
         <Portfolio/>
+        <Testimonials/>
       </main>
     </>
   )
