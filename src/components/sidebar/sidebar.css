@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: space-between;
   z-index: 10;
+  transition: .3s;
   /* display: none; */
 }
 
@@ -53,6 +54,7 @@
   align-items: center;
   justify-content: center;
   z-index: 1;
+  transition: .3s;
 }
 
 .menu{
@@ -62,5 +64,11 @@
 @media screen and (max-width:1024px){
   .aside{
     left: -110px;
+  }
+  .nav--toggle-open{
+    left: 140px;
+  }
+  .show-menu{
+    left: 0;
   }
 }

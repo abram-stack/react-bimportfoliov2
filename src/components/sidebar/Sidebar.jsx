@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from '../../assets/logo.svg'
 import './sidebar.css'
 
@@ -9,13 +9,22 @@ import {
   IoCodeSlashOutline,
   IoMailOutline,
   IoRibbonOutline,
-   IoMenu 
+  IoMenu,
+  IoChevronBackOutline 
+
 } from 'react-icons/io5'
 
 export default function Sidebar() {
+
+  const [toggle, setToggle] = useState(false)
+
+  function handleToggle() {
+    setToggle(prevState => prevState = !prevState)
+  }
+  console.log(toggle)
   return (
     <>
-      <aside className='aside'>
+      <aside className={toggle ? 'aside show-menu' : 'aside'}>
         <a href='#home' className='nav-logo'>
           <img src={Logo} alt='logo Bim' />
         </a>
@@ -62,8 +71,11 @@ export default function Sidebar() {
         </div>
       </aside>
 
-      <div className='nav--toggle'>
-        <IoMenu className='menu'/>
+      <div
+        className={toggle ? 'nav--toggle nav--toggle-open' : 'nav--toggle'}
+        onClick={handleToggle}
+      >
+        {toggle ? <IoChevronBackOutline/> : <IoMenu className='menu' />}
       </div>
     </>
   )
