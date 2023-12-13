@@ -1,6 +1,5 @@
 .testimonials--container{
   max-width: 700px;
-  border:1px solid red;
 }
 .testimonial--item{
   text-align: center;
@@ -9,7 +8,6 @@
 
 /* using div to cover an image, makes it display block, and place it flex start */
 .thumb{
-  border: 1px solid blue;
   height: 5.6rem;
   width: 5.6rem;
   margin: 0 auto;

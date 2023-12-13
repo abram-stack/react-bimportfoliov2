@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: space-between;
   z-index: 10;
+  /* display: none; */
 }
 
 .nav-logo{
@@ -37,4 +38,29 @@
   writing-mode: vertical-lr;
   display: flex;
   align-items: center;
+}
+.nav--toggle{
+  position: fixed;
+  top:1.25rem;
+  left: 1.875rem;
+  cursor: pointer;
+  height: 40px;
+  width: 45px;
+  border: 1px solid slategray;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.menu{
+  font-size: var(--h2-font-size);
+  color: black;
+}
+@media screen and (max-width:1024px){
+  .aside{
+    left: -110px;
+  }
 }

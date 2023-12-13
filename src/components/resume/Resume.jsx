@@ -56,7 +56,7 @@ const experiences = [
   })
 
   return (
-    <section className='section container resume'>
+    <section className='section container resume' id='resume'>
       <h2 className='section--title'>Experience</h2>
 
       <div className='resume--container grid'>

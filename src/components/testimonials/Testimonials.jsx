@@ -12,7 +12,7 @@ import 'swiper/css/pagination'
 
 export default function Testimonials() {
   return (
-    <div className='container section testimonials'>
+    <div className='container section testimonials' id='testimonials'>
       <h2 className='section--title'>Clients and Reviews</h2>
 
       <Swiper

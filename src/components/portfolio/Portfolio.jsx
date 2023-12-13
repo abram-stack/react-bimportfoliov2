@@ -16,7 +16,7 @@ export default function Portfolio() {
   
 
   return (
-    <div className='container section work'>
+    <div className='container section work' id='portfolio'>
       <h2 className='section--title'>Recent Works</h2>
 
       <div className='work--filters'>

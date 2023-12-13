@@ -26,13 +26,13 @@
   background-color:hsl(43, 100%,68%);
   position: absolute;
   left: .6rem;
-  top: 0;
+  top: .2rem;
 }
 
 .timeline--icon{
   position: absolute;
   left: -.1rem;
-  top: 0;
+  top: .2rem;
   font-size: var(--h2-font-size);
   color: hsl(43, 100%, 68%);
   background-color: whitesmoke;
@@ -46,4 +46,28 @@
 .timeline--title{
   font-size: var(--h3-font-size);
   margin: .5rem 0;
+}
+
+@media screen and (max-width:1024px) {
+  .resume--container {
+    grid-template-columns: repeat(2, 330px);
+    justify-content: center;
+  }
+  .timeline--item::before{
+    left: .5rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .resume--container {
+    grid-template-columns: 450px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .timeline--item {
+
+    padding-left: 1.5rem;
+  }
 }

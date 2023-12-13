@@ -90,3 +90,24 @@
 .work--card:hover .work--category{
   transform: translateY(0);
 }
+
+@media screen and (max-width:1024px) {
+  .work--filters{
+    justify-content: center;
+  }
+  .work--container {
+    grid-template-columns: repeat(2, 330px);
+    justify-content: center;
+  }
+
+  .timeline--item::before {
+    left: .5rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .work--container {
+    grid-template-columns: 310px;
+    justify-content: center;  }
+  
+}
