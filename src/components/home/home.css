@@ -18,6 +18,19 @@
   font-weight: 700;
   margin-bottom: .5rem;
 }
+.home--info, .home--hook{
+  display: inline-block;
+  width: 100%;
+}
+.home--info{
+  /* font-family: var(--grotesk-font); */
+  font-family: 'Space Grotesk',sans-serif;
+  font-weight: 700;
+  font-size: var(--h2-font-size);
+  color: #ABC7DD;
+
+}
+
 .home--socials{
   display: flex;
   justify-content: center;

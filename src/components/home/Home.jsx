@@ -10,16 +10,27 @@ export default function Home() {
     <section>
       <div className='container home' id='home'>
         <div className='intro'>
-          <img src={profileMe} alt='bim profile picture smiling' className='home--img'/>
+          <img
+            src={profileMe}
+            alt='bim profile picture smiling'
+            className='home--img'
+          />
           <h1 className='home--name'>Bram Bimo</h1>
-          <span className='home--education'>I'm a Frontend Explorer</span>
-          <HeaderSocials />
-          
-          <a href='#contact' className='btn'>Hire Me</a>
+          <span className='home--info'>I'm a Frontend Explorer</span>
+          <span className='home--hook'>
+            Just scratched the surface of the Web Dev world, amazed and heading
+            forward to discover the rest of the web dev world.
+          </span>
 
-          <ScrollDown/>
+          <HeaderSocials />
+
+          {/* <a href='#contact' className='btn'>
+            Hire Me
+          </a> */}
+
+          <ScrollDown />
         </div>
-        <Shapes/>
+        <Shapes />
       </div>
     </section>
   )
