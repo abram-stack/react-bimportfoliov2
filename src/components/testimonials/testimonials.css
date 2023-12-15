@@ -21,7 +21,7 @@
 }
 .comment{
   background-color: whitesmoke;
-  padding: 1.875rem;
+  padding: 1.875rem ;
   margin-top: 1.5rem ;
   box-shadow: var(--shadow);
   border-radius: 10px;
@@ -39,4 +39,10 @@
   width: 1.2rem !important;
   height: .375rem !important;
   border-radius: .5rem !important;
+}
+
+@media screen  and (max-width:768px){
+  .comment{
+    padding: 1.875rem 1rem;
+  }
 }

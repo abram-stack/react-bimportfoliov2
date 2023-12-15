@@ -1,6 +1,7 @@
 import React from 'react'
 import { PiCoffee } from 'react-icons/pi'
-import { IoLogoReact } from "react-icons/io5";
+import { IoLogoReact, IoCodeSlash } from "react-icons/io5";
+
 
 export default function AboutBox() {
   return (
@@ -8,21 +9,21 @@ export default function AboutBox() {
       <div className='about--box'>
         <PiCoffee className='about--icon' />
         <div>
-          <h3 className='about--title'> +9999</h3>
+          <h3 className='about--title'> +9999999</h3>
           <span className='about--subtitle'>Cup of coffee</span>
         </div>
       </div>
       <div className='about--box'>
-        <IoLogoReact className='about--icon'/>
+        <IoCodeSlash className='about--icon'/>
         <div>
-          <h3 className='about--title'>16</h3>
-          <span className='about--subtitle'>Projects</span>
+          <h3 className='about--title'>+8900</h3>
+          <span className='about--subtitle'>Hours of Coding</span>
         </div>
       </div>
       <div className='about--box'>
         <IoLogoReact className='about--icon'/>
         <div>
-          <h3 className='about--title'>16</h3>
+          <h3 className='about--title'>some</h3>
           <span className='about--subtitle'>Projects</span>
         </div>
       </div>

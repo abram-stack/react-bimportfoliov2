@@ -1,48 +1,48 @@
-import Work1 from '../assets/work-1.svg'
-import Work2 from '../assets/work-2.svg'
-import Work3 from '../assets/work-3.svg'
-import Work4 from '../assets/work-4.svg'
-import Work5 from '../assets/work-5.svg'
-import Work6 from '../assets/work-6.svg'
+import cloudLP from '../assets/cloud-LP.png'
+import thesisImage from '../assets/thesisProj.png'
+import shoplistImage from '../assets/shoplist-proj.png'
+import spaceImage from '../assets/space-proj.png'
+import colorImage from '../assets/colorpalette-proj.png'
+import movieImage from '../assets/movielist-proj.png'
+// import recipeImage from '../assets/movielist-proj.png'
 
 export const projects = [
     {
       id: 1,
-      image: Work1,
-      title: 'Project Management Illustration',
+      image: spaceImage,
+      title: 'Landing Page for Space Exploration',
       category: 'Design',
     },
     {
       id: 2,
-      image: Work2,
-      title: 'Guest App Walkthrough Screens',
+      image: thesisImage,
+      title: 'Thesis Project: Reduce CO2 Footprints per visit',
       category: 'Art',
     },
     {
       id: 3,
-      image: Work3,
-      title: 'Delivery App Wireframe',
+      image: shoplistImage,
+      title: 'Shopping List for Business: das Lesecafe employee',
       category: 'Branding',
     },
     ,
     {
       id: 4,
-      image: Work4,
-      title: 'Onboarding Motivation',
+      image: colorImage,
+      title: 'Color Palette Generator ',
       category: 'Design',
     },
-    ,
     {
       id: 5,
-      image: Work5,
-      title: 'iMac Mockup Design',
+      image: cloudLP,
+      title: 'Landing Page: Cloud Company Mockup',
       category: 'Creative',
     },
     ,
     {
       id: 6,
-      image: Work6,
-      title: 'Game Store App Concept',
+      image: movieImage  ,
+      title: 'Favorite Movie? Then put it the list',
       category: 'Art',
     },
   ]

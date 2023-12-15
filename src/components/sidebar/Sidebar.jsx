@@ -26,7 +26,8 @@ export default function Sidebar() {
     <>
       <aside className={toggle ? 'aside show-menu' : 'aside'}>
         <a href='#home' className='nav-logo'>
-          <img src={Logo} alt='logo Bim' />
+          {/* <img src={Logo} alt='logo Bim' /> */}
+          <h1>BB8</h1>
         </a>
 
         <nav className='nav'>

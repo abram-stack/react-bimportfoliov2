@@ -18,23 +18,43 @@
   text-align: justify;
   line-height: 2;
 }
+.about--tech{
+  text-align: center;
+}
 .about--skills{
   gap: 1.25rem;
-  border: 1px solid red;
+  width: 100%;
+  max-width: 300px;
 }
-.skills--item{
-  border: 1px solid blue;
-}
+
 .skills--titles{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: .5rem;
 }
+.skills--item{
+  padding-top: 2rem;
+}
+.tech--info{
+  grid-template-columns: repeat(2,1fr);
+  gap: .5rem;
+  padding: 1rem;
+  margin: 1.5rem 0 3rem 0;
+}
+.tech{
+  font-size: var(--small-font-size);
+  padding: .2rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  background-color: whitesmoke;
+}
 .skills--name{
   font-size: var(--normal-font-size);
   font-weight: 600;
 }
+
+
 .skills--number{
   line-height: 1.2;
 }
@@ -88,7 +108,9 @@
     gap: 1.875rem;
   }
   .about--img{
-    justify-self: center;
+    justify-self:center;
+    width: 100%;
+    max-width: 400px;
   }
   .about--box{
     flex-direction: column;
@@ -108,5 +130,13 @@
     grid-template-columns: repeat(2,150px);
     gap: 1.5rem;
     justify-content: center;
+  }
+}
+@media screen and (max-width:568px){
+  .about--container{
+    grid-template-columns: 1fr;
+  }
+  .about--boxes{
+    grid-template-columns: 1fr;
   }
 }

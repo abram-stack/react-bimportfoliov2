@@ -1,31 +1,23 @@
 import React from 'react'
 import './services.css'
-import Service1 from '../../assets/service-1.svg'
-import Service2 from '../../assets/service-2.svg'
-import Service3 from '../../assets/service-3.svg'
+import Service1 from '../../assets/design.png'
+import Service2 from '../../assets/code.png'
+// import Service3 from '../../assets/service-3.svg'
 
 export default function Services() {
   const services = [
     {
       id: 1,
-      title: 'UI/UX design',
+      title: 'Software Design',
       image: Service1,
       description:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora consequuntur natus aperiam accusamus. Aut, recusandae.',
+        'Having deep understanding how important products User Experience is, I design products not only for the User Interface but also how the user interacts with the products, so people can have the joy using it. I strive to build software with design patterns.',
     },
     {
       id: 2,
       title: 'Web Development',
       image: Service2,
-      description:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora consequuntur natus aperiam accusamus. Aut, recusandae.',
-    },
-    {
-      id: 3,
-      title: 'Analysis',
-      image: Service3,
-      description:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora consequuntur natus aperiam accusamus. Aut, recusandae.',
+      description: 'With the experiences and knowledge I gathered in University, I try to write clean, re-usable code. Follow the core concept, algorithm principal',
     },
   ]
 

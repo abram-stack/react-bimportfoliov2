@@ -12,6 +12,9 @@
 }
 .home--img{
   margin-bottom: 1.5rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
 }
 .home--name{
   font-size: var(--h1-font-size);

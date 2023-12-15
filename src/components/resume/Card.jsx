@@ -12,6 +12,7 @@ export default function Card({ exp }) {
         <div className='timeline--item'>
           <IoRibbonOutline className='timeline--icon'/><span className='timeline--year'>{exp.year}</span>
           <h3 className='timeline--title'>{exp.title}</h3>
+          <p className='timeline--place'>{exp.place}</p>
           <p className='timeline--text'>{exp.desc}</p>
         </div>
       )}

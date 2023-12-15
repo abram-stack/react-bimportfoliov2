@@ -1,5 +1,5 @@
 .services--container{
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.875rem;
 }
 
@@ -17,6 +17,8 @@
 }
 .services--image{
   margin-bottom: 1.25rem;
+  width: 5rem;
+  height: 5rem;
 }
 .services--title{
   font-size: var(--h3-font-size);
