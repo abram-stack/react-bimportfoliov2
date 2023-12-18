@@ -23,17 +23,11 @@ export default function Portfolio() {
         <span className='work--item' onClick={() => setType(null)}>
           All
         </span>
-        <span className='work--item' onClick={() => setType('Creative')}>
-          Creative
+        <span className='work--item' onClick={() => setType('LandingPage')}>
+          Landing Page
         </span>
-        <span className='work--item' onClick={() => setType('Art')}>
-          Art
-        </span>
-        <span className='work--item' onClick={() => setType('Design')}>
-          Design
-        </span>
-        <span className='work--item' onClick={() => setType('Branding')}>
-          Branding
+        <span className='work--item' onClick={() => setType('WebApp')}>
+          WebApp
         </span>
       </div>
 
@@ -51,7 +45,7 @@ export default function Portfolio() {
 
             <span className='work--category'>{project.category}</span>
             <h3 className='work--title'>{project.title}</h3>
-            <a href='#' className='work--button'>
+            <a href={project.link} className='work--button'>
               details
             </a>
           </div>

@@ -11,38 +11,44 @@ export const projects = [
       id: 1,
       image: spaceImage,
       title: 'Landing Page for Space Exploration',
-      category: 'Design',
+    category: 'LandingPage',
+      link: 'https://github.com/abram-stack/space-tourism'
     },
     {
       id: 2,
       image: thesisImage,
       title: 'Thesis Project: Reduce CO2 Footprints per visit',
-      category: 'Art',
+      category: 'WebApp',
+      link:'https://github.com/abram-stack/nextjs-rendering-pattern-ssg'
     },
     {
       id: 3,
       image: shoplistImage,
       title: 'Shopping List for Business: das Lesecafe employee',
-      category: 'Branding',
+      category: 'WebApp',
+      link:'https://github.com/abram-stack/shopping-cart'
     },
     ,
     {
       id: 4,
       image: colorImage,
       title: 'Color Palette Generator ',
-      category: 'Design',
+      category: 'WebApp',
+      link:'https://github.com/abram-stack/color-palette'
     },
     {
       id: 5,
       image: cloudLP,
       title: 'Landing Page: Cloud Company Mockup',
-      category: 'Creative',
+      category: 'LandingPage',
+      link:'https://cloudlandingpage.netlify.app/'
     },
     ,
     {
       id: 6,
       image: movieImage  ,
       title: 'Favorite Movie? Then put it the list',
-      category: 'Art',
+      category: 'WebApp',
+      link:'https://github.com/abram-stack/movie-watchlist'
     },
   ]
