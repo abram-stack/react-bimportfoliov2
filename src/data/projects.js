@@ -4,7 +4,7 @@ import shoplistImage from '../assets/shoplist-proj.png'
 import spaceImage from '../assets/space-proj.png'
 import colorImage from '../assets/colorpalette-proj.png'
 import movieImage from '../assets/movielist-proj.png'
-// import recipeImage from '../assets/movielist-proj.png'
+import vanlifeImage from '../assets/vanlife-proj.png'
 
 export const projects = [
     {
@@ -50,5 +50,12 @@ export const projects = [
       title: 'Favorite Movie? Then put it the list',
       category: 'WebApp',
       link:'https://github.com/abram-stack/movie-watchlist'
+    },
+    {
+      id: 7,
+      image: vanlifeImage  ,
+      title: 'Camper van for life',
+      category: 'WebApp',
+      link:'https://github.com/abram-stack/camping-van'
     },
   ]
